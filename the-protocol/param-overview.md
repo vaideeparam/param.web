@@ -24,15 +24,17 @@ Therefore, the blockchain for commerce need to go beyond payments, this calls fo
 
 **Transaction Speed -** As the network uses voting-based consensus mechanisms, the transactions are almost instantaneous to match the today's typical commerce requirements.
 
-\*\*\*\*
+**Public node -** There is a support for public transaction, which will allow full transparent recording of commerce transaction and documents in open format to aid new age DAPP/B2C applications to be build on this chain and harness the power of  knowledge graph on public blockchain.
 
 ### Architecture
 
+High level architecture diagram is depicted below: 
+
+![](../.gitbook/assets/image%20%282%29.png)
+
 > Whitepaper reference
 
-
-
-
+For more details on inspiration to build ⦃param⦄ can be found on the Whitepaper and [⦃param⦄ Node](param-node.md) section details more technical implementation details.
 
 
 
