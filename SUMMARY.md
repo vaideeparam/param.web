@@ -5,8 +5,8 @@
 ## The Protocol
 
 * [⦃param⦄ Overview](the-protocol/param-overview.md)
-* [Multi signature state recording](the-protocol/commerce-data-interchange-format.md)
-* [Commerce Data Interchange Format](the-protocol/untitled.md)
+* [Multi signature state recording](the-protocol/multi-signature-state-recording.md)
+* [Commerce Data Interchange Format](the-protocol/commerce-data-interchange-format.md)
 * [Decentralised Knowledge Graph](the-protocol/decentralised-knowledge-graph.md)
 * [⦃param⦄ Node](the-protocol/param-node.md)
 
