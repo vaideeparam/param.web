@@ -14,7 +14,7 @@ As **⦃param⦄** provides an EDI like capabilities in the form of permissioned
 
 JSON-LinkedData is originally created as a standard for Semantic web. This is now, can be very well extended for establishing machine-readable data on the commerce blockchain. We can enhance the data links by adding supporting documents such as Catalogues, Booking Tickets, Payments, Shipments, etc... 
 
-A valid Invoice described using schema.org's JSON-LD structure:
+A valid Invoice described using schema.org's \(modified\) JSON-LD structure:
 
 ```text
 {

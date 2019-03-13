@@ -10,6 +10,7 @@ description: ⦃param⦄ is a blockchain for real-world commerce.
   * [⦃param⦄ Overview](the-protocol/param-overview.md)
   * [Commerce Data Interchange Format](the-protocol/commerce-data-interchange-format.md)
   * [Decentralised Knowledge Graph](the-protocol/decentralised-knowledge-graph.md)
+  * [⦃param⦄ Node](the-protocol/param-node.md)
 * [⦃param⦄ Platform](param-platform/directconnect-network.md)
   * [directConnect - Network](param-platform/directconnect-network.md) 
   * [directCommerce - Client](param-platform/directcommerce-client.md)
