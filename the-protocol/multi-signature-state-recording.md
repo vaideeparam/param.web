@@ -6,7 +6,7 @@ description: 'States: Quotation >> Purchase Order >> Invoice >> Payments >> Digi
 
 Commerce transactions has more states as compared to typical financial transaction. Any state change would involve minimum two parties to fulfil the associated contractual obligations. In order to bring this into universal commerce blockchain, where most of the contracts can be build seamlessly on a single chain, ⦃param⦄ records the transaction states and transitions on the ledger natively.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ⦃param⦄ protocol records states after necessary validations such as:
 
@@ -18,4 +18,8 @@ Commerce transactions has more states as compared to typical financial transacti
 * Only Buyer or Seller can add subscribers to the transaction, which is detailed in [later](param-node.md) section.
 
 Although the network is permissioned, for spam protection, the creating Quotation on the network would come at a stake or a cost.
+
+> Its worthwhile to note, a single "_commerce transaction"_ is equal to multiple ⦃param⦄ transaction on the chain
+
+
 

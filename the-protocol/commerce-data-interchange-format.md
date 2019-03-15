@@ -1,5 +1,5 @@
 ---
-description: Standard behind the semantic network
+description: Standard behind the semantic blockchain.
 ---
 
 # Commerce Data Interchange Format
@@ -10,7 +10,7 @@ Enterprises have recognised the need for standardisation of documents that are s
 
 As **⦃param⦄** provides an EDI like capabilities in the form of permissioned public blockchain network for enterprises of all sizes to collaborate and share documents in a well structured format called JSON-LinkedData, referred as Commerce Data Interchange Format \(CDIF\).
 
-### JSON-LinkedData
+### JSON-LinkedData as CDIF
 
 JSON-LinkedData is originally created as a standard for Semantic web. This is now, can be very well extended for establishing machine-readable data on the commerce blockchain. We can enhance the data links by adding supporting documents such as Catalogues, Booking Tickets, Payments, Shipments, etc... 
 
@@ -125,7 +125,18 @@ A valid Invoice described using schema.org's \(modified\) JSON-LD structure:
 }
 ```
 
-### 
+### ERP Integration
+
+⦃param⦄ aim to provide standard convertors for direct ERP integration. Where convertors will plugin to systems like SAP, Zoho Books, connect via standard API interfaces to translate the native ERP formats into CDIF compatible to ⦃param⦄ CLI and API. 
+
+### Knowledge Extension
+
+Once could extend the knowledge of the commerce transaction by adding more standard documents. For example:
+
+* Seller can be update the transaction with [DeliveryMethod](https://schema.org/DeliveryMethod)
+* Online Travel Agent could add Schema.org complaint [**Invoice**](https://schema.org/Invoice) -&gt; [**Ticket**](https://schema.org/Ticket)  -&gt; [**Seat Booking**](https://schema.org/Seat) ****by Airline operator. 
+
+Each knowledge extension transaction will go through schema validation at the node-level before the transaction is sent on the network.
 
 ### External References
 
@@ -138,6 +149,8 @@ A valid Invoice described using schema.org's \(modified\) JSON-LD structure:
 > [https://schema.org/Invoice](https://schema.org/Invoice)
 >
 > EDIFACT Invoice 810 standard
+>
+> [SAP SchemA ABAP GIT Project](https://github.com/se38/SchemA)
 
 
 

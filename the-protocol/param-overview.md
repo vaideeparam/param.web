@@ -10,7 +10,7 @@ description: 'Blockchain for Commerce, for Real-World.'
 
 ⦃param⦄ is a natural evolution of blockchain thinking for commerce, as most blockchain are designed specifically for finance industry, especially around currency & payments. Typical commerce transaction would involve multiple dialogues between two entities. In the process, specific documents are shared to support the transaction, and payments happens to be just one step in between.
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Therefore, the blockchain for commerce need to go beyond payments, this calls for enhanced ledger structure to record state-information and documents \(source of truth\) relevant to each step of the commerce transactions. 
 
@@ -36,7 +36,7 @@ Therefore, the blockchain for commerce need to go beyond payments, this calls fo
 
 High level architecture diagram is depicted below: 
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 > Whitepaper reference
 
