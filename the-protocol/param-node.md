@@ -2,9 +2,9 @@
 
 ### Ethereum + Quorum Tessara + Cayley Graph
 
-⦃param⦄ is a Quorum-based \(Ethereum\) blockchain protocol that has been developed to provide the Commerce Industry with a permissioned public implementation of Quorum that supports sharing documents such as Quotations, Purchase Orders, Invoices and more to _zero-infrastructure_ enterprises without a need for consortium and with utmost data-privacy.
+⦃param⦄ is a Quorum-based \(Ethereum\) blockchain protocol that has been developed to provide the Commerce Industry with a permissioned public implementation of Quorum that supports sharing documents such as Quotations, Purchase Orders and Invoices to _zero-infrastructure_ enterprises without a need for consortium and with utmost data-privacy.
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
 The full node consists of:
 
@@ -31,14 +31,16 @@ This mode is used for transferring the documents between two private nodes secur
 * Signature hash including the acknowledgement and the document is created
 * Finally, upon successful private document transfer, the transaction is sent to P2P public network
 
-#### Protected Mode
+#### Protected mode
 
-Protected Mode of transfer mimics the private mode of transfer except that the documents are stored on the public nodes. This enables the small/medium enterprises and consumers to store documents such as invoices and purchase receipts securely on blockchain and claim ownership for forward use-cases, such as insurance, resale, etc... The steps are:
+Protected Mode of transfer mimics the private mode on the public node. Here, the encrypted documents are stored on the public nodes. This enables the small/medium enterprises and consumers to store documents such as invoices and purchase receipts securely on blockchain and claim ownership for forward use-cases, such as financing, insurance, resale, etc... The steps are:
 
 * Documents are encrypted using symmetric keys like Private mode
 * Encrypted keys and documents are stored as part of the public ledger
 * Transaction is processed and block is mined like public transaction
 * Nodes that are opted for storing protected transaction will sync as part of the block sync mechanism
+
+Note that although the document is stored on public nodes, its readable only for the sender & receiver by default.
 
 #### Public mode
 
@@ -50,7 +52,7 @@ Largely Smart contracts behaviour at a node level remains same, but as a network
 
 ### Data Privacy
 
-⦃param⦄ provides enterprise level data-privacy, additionally it democratize the data equally between the sender and receiver, empowering them with the right data ownership. Below tables gives the overview of the data access across parties.
+⦃param⦄ provides enterprise level data-privacy, additionally it democratize the data by making it available equally for both sender and receiver, empowering them with the data ownership. Below tables gives the overview of the data access across parties and transfer types.
 
 <table>
   <thead>
@@ -66,11 +68,11 @@ Largely Smart contracts behaviour at a node level remains same, but as a network
       </th>
       <th style="text-align:center">
         <p>Protected Node</p>
-        <p>(non-party)</p>
+        <p>(third-party)</p>
       </th>
       <th style="text-align:center">
         <p>Public Node</p>
-        <p>(non-party)</p>
+        <p>(third-party)</p>
       </th>
     </tr>
   </thead>
@@ -99,13 +101,17 @@ Largely Smart contracts behaviour at a node level remains same, but as a network
   </tbody>
 </table>### Subscribers
 
-Subscribers is the concept of ownership of the documents that are shared on the network. In private/protected mode, the sender and receiver becomes subscribers automatically and equal access on the data to execute smart-contracts on their nodes which has the private key access. 
+"_Subscribers_" is the concept of attaching ownership of the documents that are shared on the network. In private/protected mode, the sender and receiver becomes subscribers automatically and they have equal access on the data, such as:
+
+* Add more subscribers
+* Execute smart-contracts on their nodes where private key is available
+* Independently run data-queries on their data for self consumption
 
 The existing subscribers can add more subscribers to share the documents. For example, a buyer can share the invoice document with financial institutes for loan processing.
 
 ### Consensus
 
-> Raft based Consensus
+> Raft based Consensus being used in testnet. There will IBFT
 
 
 

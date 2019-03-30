@@ -131,7 +131,7 @@ A valid Invoice described using schema.org's \(modified\) JSON-LD structure:
 
 ### Knowledge Extension
 
-Once could extend the knowledge of the commerce transaction by adding more standard documents. For example:
+One could extend the knowledge of the commerce transaction by adding more standard documents. For example:
 
 * Seller can be update the transaction with [DeliveryMethod](https://schema.org/DeliveryMethod)
 * Online Travel Agent could add Schema.org complaint [**Invoice**](https://schema.org/Invoice) -&gt; [**Ticket**](https://schema.org/Ticket)  -&gt; [**Seat Booking**](https://schema.org/Seat) ****by Airline operator. 

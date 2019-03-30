@@ -10,7 +10,7 @@ description: Enable data-driven smart-contracts.
 
 As ⦃param⦄ records commerce documents with semantics using CDIF \(JSON-LinkedData\) format, which allows the enterprises \(local nodes\) to build decentralised knowledge graph from the documents which are sent/received via blockchain.
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ### Constructing local Knowledge Graph
 
