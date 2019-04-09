@@ -4,7 +4,9 @@
 
 Download the mac build from the following link and double click on the downloaded file from the Finder.
 
-{% embed url="http://param.network/rel/param-wallet-beta-0.3.3.dmg" %}
+{% embed url="http://param.network/rel/param-wallet-beta-0.3.5.dmg" %}
+
+
 
 {% hint style="info" %}
 Since Beta software is distributed outside Apple app-store, you will get a Security Warning. You can override by following step
