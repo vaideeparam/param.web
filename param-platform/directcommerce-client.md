@@ -4,7 +4,7 @@
 
 Download the mac build from the following link and double click on the downloaded file from the Finder.
 
-{% embed url="http://param.network/rel/param-wallet-beta-0.3.5.dmg" %}
+{% embed url="http://param.network/rel/param-network-wallet-beta-0.4.2.dmg" %}
 
 
 
