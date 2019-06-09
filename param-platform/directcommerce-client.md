@@ -44,7 +44,7 @@ You can add a business contact to whom you want to send invoice. For now, you ca
 
 | Name | Param-Public-Id | Private ID |
 | :--- | :--- | :--- |
-| Vaidee | 0x8b30030d90b83565f2ecf77ad8b27a013a5175bd | -NA- |
+| Vaidee | 0xe1b990b69b404c31089f885c426a1f050ee15681 | -NA- |
 
 ![](../.gitbook/assets/image%20%282%29.png)
 
